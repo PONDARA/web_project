@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table bgcolor="#cccccc" width="100%" align="center">
+		<tr>
+			<td align="center">
+				<a href="">Home</a>
+			</td>
+			<td align="center">
+				<a href="">Even</a>
+			</td>
+			<td align="center">
+				<a href="">Activity</a>
+			</td>
+			<td align="center">
+				<a href="">About Us</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

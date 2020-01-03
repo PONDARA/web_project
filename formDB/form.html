@@ -1,0 +1,42 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<form action="#" onsubmit="return false">
+		<div>
+			<input type="text" name="name" id="Username" maxlength="30" value="" required="" placeholder="User name"><br>
+		</div>
+		<div>
+			<input type="text" name="name" id="Age" maxlength="30" value="" required="" placeholder="Age" pattern="^[0-9].$"><br>
+		</div>
+		<div>
+			<input type="radio" name="gender" class="gender"> Male
+			<input type="radio" name="gender" class="gender"> Female
+		</div>
+		<div id="School">
+			School:<select>
+						<option value="CS" >Computer Science</option>
+						<option value="TN" >Telecom and Netword</option>
+						<option value="EC">Ecommerce and Logistic</option><br>
+					</select>
+		</div>
+		<button onclick="addName()">Submit</button>
+	</form>
+	<table id="tableStudents">
+		<tr >
+			<td >No</td>
+			<td >Name</td>
+			<td >Age</td>
+			<td >Gender</td>
+			<td >School</td>
+		</tr>
+	</table>
+	<script src="form.js"></script>
+</body>
+</html>

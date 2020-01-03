@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		var n=prompt("n : ");
+		n=n-0;
+		var a0=1;
+		var a1=1;
+		document.write("a0 = ");
+		document.write(a0+"<br>");
+		document.write("a1 = ");
+		document.write(a1+"<br>");
+		for (var i = 0; i < n-1; i++) {
+			var an=a0+a1;
+			document.write("a"+(i+2));
+			document.write(" = ");
+			document.write(an+"<br>");
+			a0=a1;
+			a1=an;	
+		}
+		
+	</script>
+</body>
+</html>

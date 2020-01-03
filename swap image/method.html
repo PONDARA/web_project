@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#image{
+			width: 500px;
+			height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<img src="toro.jpg" id="image" >
+	<p id="text" onclick="blue()">this is dara</p>
+	<script type="text/javascript">
+		document.getElementById("image").addEventListener("mouseover",mouseover1);
+		document.getElementById("image").addEventListener("mouseleave",mouseleave1);
+		function mouseover1()
+		{
+			document.getElementById("image").src="1.jpg";
+		}
+		function mouseleave1()
+		{
+			document.getElementById("image").src="toro.jpg";
+		}
+		function blue()
+		{
+			document.getElementById("text").style.color="red";
+		}
+		
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form lab</title>
+	<meta charset="utf-8">
+	<meta name="description" content="First assighment">
+	<meta name="author" content="Dara">
+	<meta name="keyword" content="Niptict,niptict">
+</head>
+<body>
+	<form action="#" method="get" enctype="multipart/form-data">
+		<div>
+			<table>
+				<tr>
+					<td><label>Username: </label></td>
+					<td><input type="text" name="Username" placeholder="Input your name"></td>
+				</tr>
+				<tr>
+					<td><label>Password: </label></td>
+					<td><input type="Password" name="Password" placeholder="Input your Password"></td>
+				</tr>
+				<tr>
+					<td><label>Gender: </label></td>
+					<td><input type="radio" name="Ratio"> Male<input type="radio" name="Ratio"> Female</td>
+				</tr>
+				<tr>
+					<td><label>Age:</label></td>
+					<td><input type="text" name="Age" value="0"></td>
+				</tr>
+				<tr>
+					<td><label>Province: </label></td>
+					<td>
+						<select name="Province">
+							<option value="kk">KohKong</option>
+							<option value="PP">PhnomPenh</option>
+							<option value="LD">LonDon</option>
+							<option value="NY">NewYork</option>
+							<option value="PL">PaiLen</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="datetime">Date Time:</label></td>
+					<td><input type="date" name="date" id="datetime"></td>
+				</tr>
+				<tr>
+					<td><label>Tell: </label></td>
+					<td><input type="text" name="Tell"></td>
+				</tr>
+				<tr>
+					<td><label>Photo: </label></td>
+					<td><input type="file" name="Photo"></td>
+				</tr>
+				<tr>
+					<td><label>Email: </label></td>
+					<td><input type="text" name="Email"></td>
+				</tr>
+				<tr>
+					<td><label>Website: </label></td>
+					<td><input type="text" name="Website"></td>
+				</tr>
+				<tr>
+					<td><label>Rank: </label></td>
+					<td><input type="range" name="range" id="range" max="20" min="4"></td>
+				</tr>
+				<tr>
+					<td><label>Favorite color: </label></td>
+					<td ><input type="color" name="color"></td>
+				</tr>
+				<tr>
+					<td><label>Favorite food: </label></td>
+					<td><input type="text" name="Favorite food"></td>
+				</tr>
+				<tr>
+					<td><label>Comment: </label></td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td><label>No edit disable </label></td>
+					<td><input type="text" name="disable" id="disable" disabled="" value="disable feild"></td>
+				</tr>
+				<tr>
+					<td><label>Alert </label></td>
+					<td>
+						<input type="button" name="Alert" value="Alert" onclick="alert('Hello Master DARA')">
+						<input type="button" name="Alert" value="Alert" onclick="alert('Hello Master DARA')">
+					</td>
+				</tr>
+				<input type="reset" name="reset" value="reset">
+			</table>
+		</div>
+	</form>
+</body>
+</html>

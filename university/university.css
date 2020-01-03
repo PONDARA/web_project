@@ -1,0 +1,94 @@
+.full
+{
+	border: 2px solid blue;
+	width: 90%;
+	height: 90%;
+	padding: 5%;
+	text-align: center;
+	margin: auto;
+}
+.header
+{
+	border: 2px solid blue;
+	width: 90%;
+	height: 20%;
+	text-align: center;
+	padding: 5%;
+	margin:5px;
+}
+.content
+{
+	border: 2px solid blue;
+	width: 90%;
+	height: 60%;
+	padding: 5%;
+	text-align: center;
+	display: inline-table;
+	margin: 5px;
+}
+.contentleft
+{
+	border: 2px solid black;
+	text-align: center;
+	padding: 5%;
+	float: left;
+	margin: 5px;
+
+}
+.contentright
+{
+	border: 2px solid red;
+	border-radius: 16px;
+	background-color: blue;
+	padding: 5%;
+	text-align: center;
+	float: right;
+	margin: 5px;
+}
+.footer
+{
+	border: 2px solid blue;
+	width: 90%;
+	height: 20%;
+	padding: 5%;
+	text-align: center;
+	margin: 5px;
+}
+@media screen and (max-width: 600px)
+{
+	.full
+	{
+		height: auto;
+		width: auto;
+	}
+	.cotent
+	{
+		border: 2px solid black;
+		text-align: center;
+		padding: 5%;
+		width: auto;
+		height: auto;
+		display: none;
+		margin: 5px;
+	}
+	.cotentleft
+	{
+		border: 2px solid black;
+		text-align: center;
+		padding: 5%;
+		width: auto;
+		height: auto;
+		float: none;
+		margin: 5px;
+	}
+	.contentright
+	{
+		border: 2px solid black;
+		text-align: center;
+		padding: 5%;
+		width: auto;
+		height: auto;
+		float: none
+		margin: 5px;
+	}
+}

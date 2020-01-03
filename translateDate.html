@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dateKhmer</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+	<script type="text/javascript">
+		var d = new Date();
+		var days = ["ថ្ងៃអាទិត្យ", "ថ្ងៃចន្ទ", "ថ្ងៃអង្គារ", "ថ្ងៃពុធ", "ព្រហស្បតិ៍", "ថ្ងៃសុក្រ", "ថ្ងៃសៅរ៍"];
+		var dates=["0","១","២","៣","៤","៥","៦","៧","៨","៩","១០","១១","១២","១៣","១៤","១៥","១៦","១៧","១៨","១៩","២០","២១","២២","២៣","២៤","២៥","២៦","២៧","២៨","២៩","៣០","៣១"];
+		var y = d.getFullYear();
+		y=y+"";
+		var l = y.length;
+		var year = "";
+		var i=0;
+		for (i=0;i<l;i++)
+		{
+			year = year+dates[y[i]];
+		}
+		var months = ["ខែមករា", "ខែកុម្ភៈ", "ខែមីនា", "ខែមេសា", "ខែឧសភា", "ខែមិថុនា", "ខែកក្កដា", "ខែសីហា", "ខែកញ្ញា", "ខែតុលា", "ខែវិច្ឆិកា", "ខែធ្នូ"];
+		document.write(days[d.getDay()]);
+		document.write("-ទី"+dates[d.getDate()]);		
+		document.write("-"+months[d.getMonth()]);
+		document.write("-"+year);
+		
+		
+
+
+	</script>
+</body>
+</html>

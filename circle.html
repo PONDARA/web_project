@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>circle</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		function Cirle(r) {
+			this.radius=r;
+			this.parameter = function () {
+				return (2*3.14*this.radius);
+			}
+			this.area = function () {
+				return (3.14*(this.radius*this.radius));
+			}
+		}
+
+		var p1 = new Cirle(5);
+		var p2 = new Cirle(4);
+		document.write("parameter of p1 : "+ p1.parameter());
+		document.write("areaof p1 : "+ p1.area());
+		document.write("parameter : "+ p2.parameter());
+		document.write("area : "+ p2.area());
+
+
+	</script>
+</body>
+</html>

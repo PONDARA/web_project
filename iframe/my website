@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Niptict</title>
+		<link rel="icon" href="./logoimage.png">
+		<meta charset="utf-8">
+		<meta name="description" content="First assighment">
+		<meta name="author" content="Dara">
+		<meta name="keyword" content="Niptict,niptict">
+</head>
+<body>
+	<p align="center"><h1 align="center">Welcome to Niptict</h1></p>
+	<table width="100%">
+		<iframe  src="header" frameborder="0" width="100%" height="30px"></iframe><br/>
+		<iframe  src="list table frame.html" frameborder="0" width="20%" height="600px"></iframe>
+		<iframe  src="schedule" frameborder="0" width="60%" height="600px"></iframe>
+		<iframe  src="video" frameborder="0" width="20%" height="600px"></iframe><br/>
+		<iframe  src="header" frameborder="0" width="100%" height="" align="center"></iframe>
+	</table>
+	<p align="center">@Copyright 2017 Department of Computer Sceince</p>
+</body>
+</html>

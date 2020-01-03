@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="#cccccc">
+	<div align="center">
+		<table border="1" align="center" width="100%" heigh="100%">
+		<caption><h1>This is table lab</h1></caption>
+		<tr>
+			<td align="center" cellpadding="2"></td>
+			<td align="center" cellpadding="2">MONDAY</td>
+			<td align="center" cellpadding="2">TUESDAY</td>
+			<td align="center" cellpadding="2">WEDNESDAY</td>
+			<td align="center" cellpadding="2">THURSDAY</td>
+			<td align="center" cellpadding="2">FRIDAY</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">1:00</td>
+			<td align="center" cellpadding="2" rowspan="2" bgcolor="red">Office</td>
+			<td></td>
+			<td align="center" cellpadding="2" rowspan="2" bgcolor="red">Office</td>
+			<td align="center" cellpadding="2" rowspan="8" bgcolor="pink">Office Hours by Appt</td>
+			<td align="center" cellpadding="2" rowspan="2" bgcolor="red">Office</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">1:30</td>
+			<td align="center" cellpadding="2" rowspan="2" bgcolor="gray">Dept Meeting</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">2:00</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="green">Mat 108</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="green">Mat 108</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="green">Mat 108</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">2:30</td>
+			<td align="center" cellpadding="2"></td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">3:00</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="blue">EC Meeting</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">3:30</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="orange">CSC 205</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="orange">CSC 205</td>
+			<td align="center" cellpadding="2" rowspan="3" bgcolor="orange">CSC 205</td>
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">4:00</td>	
+		</tr>
+		<tr>
+			<td align="center" cellpadding="2">4:30</td>
+			<td align="center" cellpadding="2"></td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

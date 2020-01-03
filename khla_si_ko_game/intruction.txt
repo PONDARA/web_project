@@ -1,0 +1,22 @@
++Processing of game:
+-Table:
+    	Four columns
+    	Four rows
+-Need two people to play:
+ 	one person have twelve cows
+    	One person have four tigers
+-Takes turn :
+    	 Puts four tigers first (person1)
+    	 Then can put a cow 
+    	 anywhere(person2) 
+   	 Moves the tiger to left or right 
+  	 or below or above side(person2)
+	Continue to take turn
+-Condition:
+	A tiger can jump just only one a cow  
+	If a tiger can jump over a cow 
+    	so a cow is deleted (tiger eat cow)
+	If cows can besiege the tiger 
+    	so a tiger is deleted
+-Win and lose:
+	Loser is the person that has tigers or cows were deleted all
